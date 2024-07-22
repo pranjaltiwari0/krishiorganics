@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact us/style.css">
+
+    <link rel="stylesheet" href="contact us/contactmq.css">
+
+    <link rel="shortcut icon" href="about us/aboutAssets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class=" container main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="assets/company logo.png" alt="Company Logo">
+            </a>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="index.html" class="hover-links">Home</a></li>
+                    <li><a href="AboutUs.html" class="hover-links">About Us</a></li>
+                    <li><a href="#" class="hover-links">Products</a></li>
+                    <li><a href="contact.html" class="hover-links">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <a>
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top banner -->
+     <div class="banner ">
+        <!-- <a><img src="/contact us/seedling1.jpg"></a> -->
+        <h1 class="contact">Contact Us</h1>
+     </div>
+     <!-- message -->
+     <div class="contactbody">
+        <div class="formlogo">
+            <img src="contact us/logo.png" alt="krishi organics">
+            <h2>Send Us a Message</h2>
+            <div class="soi">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </div>
+            
+        </div>
+        <!-- form -->
+        <div class="formbody ">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" id="form">
+                <div class="details">
+                    <input type="hidden" name="access_key" value="44ed444b-38db-4729-9c0c-c40acb36d0d9">
+                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                    <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
+                    <input type="text" name="number" placeholder="Contact number" class="contact-inputs" required>
+                    <input type="text" name="subject" placeholder="Subject" class="contact-inputs" >
+                </div>
+                <div class="message">
+                    <textarea name="message" placeholder="Type Your Message..  " class="message-inputs"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+     </div>
+
+    <!-- contact Details -->
+     <section class="detailcontainer">
+            
+
+
+     <div class="contactdetails">
+        <li><a><i class="fa-solid fa-map"></i><p>Office: Flat No.226,<br>Pocket-3, Sector-A9,<br>Narela, Delhi-110040.<br><br>Works: Gurudwara<br>Road, Siraspur, Delhi</p></a></li>
+        <li><a><i class="fa-solid fa-envelope"></i><p>krishiorganics.info@gmail.com</p></a></li>
+        <li><a><i class="fa-brands fa-whatsapp"></i><p>+91 90132 18193<br>+91 97280 91622<br>+91 97280 91623</p></a></li>
+
+     </div>
+     </section>
+     <script src="https://kit.fontawesome.com/8d38d26177.js" crossorigin="anonymous"></script>
+     
+
+
+     <!-- footer section -->
+     <footer>
+        <div class="contai flex footer-section-main">
+            <div class="footer-section">
+                <div class="footer-left ">
+                    <a href="#" class="company-logo">
+                        <img src="about us/aboutAssets/company logo.png" alt="company's logo">
+                    </a>
+                </div>
+                <div class="footer-right ">
+                    <h1>Contact Us</h1>
+                    <ul class>
+                        <li class="flex icon"><span><i class="fa-solid fa-phone flex icon"></i></span>
+                            <h4>+91 9728091622 | +91 9728091623</h4>
+                        </li>
+                        <li class="flex icon"><span><i class="fa-solid fa-envelope flex icon"></i></span>
+                            <h4>Krishiorganics.info@gmail.com</h4>
+                        </li>
+                        <li class="flex icon"><span><i class="fa-solid fa-location-dot flex icon"></i></i></span>
+                            <h4>Gurudwara Road, Siraspur, New Delhi</h4>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- subfooter section -->
+    <div class="subfooter">
+        <div class="subfooter-section ">
+            <div class="subfooter-left ">
+                <h4>© Copyright 2024 by Krishi Organics</h4>
+            </div>
+            <div class="subfooter-right flex">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram" style="color: #f6f7f8;"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube" style="color: #f7f7f8;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const toggleButton =  document.getElementById('nav-toggle');
+        const navLinks =document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () =>{
+            navLinks.classList.toggle('active');   
+        })
+    </script>
+</body>
+</html>

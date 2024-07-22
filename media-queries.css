@@ -1,0 +1,197 @@
+/* for tablets */
+@media screen and (max-width:991px){
+    /* navbar */
+    .nav-toggle{
+        display: block;
+        color: green;
+        font-size: 2.5rem;
+        margin-left: ;
+        
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links{
+        z-index: 1;
+        margin-top: 390px ;
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        width: 100%;
+        transition: 0.7s ease-in-out;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .nav-links ul li a{
+        font-size: 1rem;
+    }    
+
+    /* header-section */
+    .slogan-text h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    /* why krishi section */
+    .whykrishi-section{
+        gap: 40px;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    .whykrishi-left{
+        padding-left: 20px;
+    }
+    .whykrishi-left h1{
+        font-size: 2.5rem;
+        padding-bottom: 10px;
+    }
+    .whykrishi-left p{
+        font-size: 1rem;
+    }
+    .whykrishi-left li{
+        padding: 3px;
+    }
+    .whykrishi-right img{
+        width: 200px;
+        height: 200px;
+    }
+
+    /* features section */
+    .features-section{
+        padding-top: 50px;
+    }
+    .features-header h1{
+        font-size: 3rem;
+        padding-bottom: 50px;
+    }
+    .card{
+        width: 150px;
+        height: 250px;
+    }
+    .card h3{
+        font-size: 1.2rem;
+    }
+    .card-image{
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+
+/* for large phones */
+@media screen and (max-width:767px) {
+
+
+    /* header */
+    .slogan-text h1{
+        font-size: 2rem;
+    }
+
+    /* why krishi */
+    .whykrishi{
+        height: 110vh;
+    }
+    .whykrishi-section{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    
+    .whykrishi-right img{
+        display: none;
+    }
+    .whykrishi-left h1{
+        font-size: 2.3rem;
+    }
+    
+    /* features section */
+    .features-section{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .card{
+        width: 170px;
+        height: 200px;
+        margin-right: 8px
+    }
+    .card-image{
+        width: 80px;
+        height: 80px;
+    }
+    .card h3{
+        font-size: 0.7rem;
+    }
+    .h-b{
+        margin-bottom: 15px;
+    }
+
+
+/* for standard phones */
+@media screen and (max-width:479px) {
+    .hero{
+        background-position: center;
+    }
+    .slogan-text h1{
+        font-size: 6vh;
+    }
+    .slogan-text{
+        position: absolute;
+        top: 40vh;
+    }
+
+    /* why krishi section */
+    .whykrishi{
+        height: 100vh;
+    }
+
+    /* features section */
+    .features-area{
+        flex-direction: column;
+        height: 100vh;
+    }
+    .card{
+        margin: 20px;
+        
+    }
+    .features-section{
+        height: 130vh;  
+    }
+    .card h3{
+        font-size: 1rem;
+    }
+
+
+    .footer-right h1{
+        font-size: 2rem;
+    }
+    .footer-section{
+        flex-direction:column;
+    }
+
+    .subfooter-section{
+        flex-direction: column;
+        
+    }
+    .subfooter-left h4{
+        font-size: 0.7rem;
+    }
+    .subfooter-right i{
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (max-width:380px) {
+    .whykrishi{
+        height: 120vh;
+    }
+    .features-section{
+        height: 170vh;
+    }
+    .features-container{
+        height: 200vh;
+    }
+}
