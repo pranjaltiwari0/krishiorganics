@@ -19,7 +19,7 @@
         left: -100%;
         width: 100%;
         transition: 0.7s ease-in-out;
-        height:50vh;
+        height:300px;
     }
     .nav-links.active{
         left: 0;
