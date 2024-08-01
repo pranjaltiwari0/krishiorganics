@@ -75,6 +75,18 @@ ul{
     max-width: 100%;
     justify-content: space-between;
 }
+.company-logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.company-logo h1{
+    color: #275600;
+    text-decoration:solid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .company-logo img{
     width:100px;
     margin-top: 10px;
@@ -169,6 +181,7 @@ ul{
     text-align: center;
     padding-bottom:px;
     font-size: 4rem;
+    margin-bottom: 40px;
 }
 .features-header h2{
     text-align: center;
@@ -222,15 +235,17 @@ ul{
     width: 100%;
     justify-content: space-between;
 }
+.footer-left img{
+    width: 300px;
+}
 .footer-right{
     flex-direction: column;
-    gap: px;
-    position: abs;
 }
 .footer-right h1{
     color: #275600;
     
 }
+
 .icon{
     gap: 20px;
     color: rgb(50, 72, 0);
