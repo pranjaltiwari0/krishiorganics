@@ -1,0 +1,105 @@
+@media screen and (max-width: 991px) {
+    .banner{
+        background-size: cover;
+    }
+    .banner h1{
+        font-size: 4rem;
+    }
+    .nav-toggle{
+        display: block;
+        color: green;
+        font-size: 2.5rem;
+        
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .nav-links{
+        z-index: 1;
+        margin-top: 390px ;
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        width: 100%;
+        transition: 0.7s ease-in-out;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .nav-links ul li a{
+        font-size: 1rem;
+    }
+    .formlogo h2{
+        font-size: 2rem;
+    }
+    .contactbody{
+        display: block;
+        padding: 50px;     
+      }
+    .formlogo{
+        margin-bottom: 20px;
+    }
+
+    .contactdetails {
+        display:block;      
+    }
+
+    .contactdetails li a{
+        justify-content: start;
+    
+    }
+}
+
+@media screen and (max-width:  767px){
+    .banner{
+        padding: 35px;
+        height: 120px;
+    }
+    .banner h1{
+        font-size: 2rem;
+    }
+
+    .details{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        
+    }
+    .contactdetails li a{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        
+    }
+    
+}
+@media screen and (max-width:  479px){
+    .banner{
+        padding: 15px;
+        height: 90px;
+    }
+    .contactdetails li i:nth-child(1){
+        font-size: 2rem;
+    }
+    .footer-right h1{
+        font-size: 2rem;
+    }
+    .footer-section{
+        flex-direction:column;
+    }
+
+    .subfooter-section{
+        flex-direction: column;
+        
+    }
+    .subfooter-left h4{
+        font-size: 0.7rem;
+    }
+    .subfooter-right i{
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+}
