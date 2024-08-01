@@ -85,7 +85,9 @@
 /* for large phones */
 @media screen and (max-width:767px) {
 
-
+    .company-logo h1{
+        display: none;
+    }
     /* header */
     .slogan-text h1{
         font-size: 2rem;
@@ -128,6 +130,9 @@
     }
     .h-b{
         margin-bottom: 15px;
+    }
+    .footer-left img{
+        width: 300px;
     }
 }
 
@@ -195,5 +200,12 @@
         height: 170vh;
     }
     .features-container{
-        height: 200vh;
-}} 
+        height: 200vh;}
+        .features-section{
+            height: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            overflow: scroll;
+            background-size: cover;
+        }
+} 
